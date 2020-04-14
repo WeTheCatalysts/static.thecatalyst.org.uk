@@ -68,6 +68,10 @@ ul {
   margin-bottom: 1em;
 }
 
+li {
+  max-width: 740px;
+}
+
 a {
   color: $brand-navy;
   text-decoration: underline;
