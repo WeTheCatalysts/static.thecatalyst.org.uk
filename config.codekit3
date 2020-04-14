@@ -15,214 +15,214 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/favicon.ico": {
+	"\/dist\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/favicon.ico",
+		"oAP": "\/dist\/favicon.ico",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Black-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Black-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Black-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Black-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Bold-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Bold-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Bold-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Bold-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-ExtraBold-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-ExtraBold-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-ExtraBold-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-ExtraBold-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-ExtraLight-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-ExtraLight-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-ExtraLight-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-ExtraLight-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Light-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Light-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Light-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Light-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Medium-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Medium-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Medium-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Medium-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Regular-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Regular-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Regular-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Regular-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-SemiBold-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-SemiBold-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-SemiBold-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-SemiBold-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/Inter-Thin-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Thin-slnt=0.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/Inter-Thin-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Thin-slnt=0.ttf",
 		"oF": 0
 		},
-	"\/fonts\/LexendDeca-Regular.ttf": {
+	"\/dist\/fonts\/LexendDeca-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/fonts\/LexendDeca-Regular.ttf",
+		"oAP": "\/dist\/fonts\/LexendDeca-Regular.ttf",
 		"oF": 0
 		},
-	"\/images\/CAT_logo_cent_black.svg": {
+	"\/dist\/images\/CAT_logo_cent_black.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/CAT_logo_cent_black.svg",
+		"oAP": "\/dist\/images\/CAT_logo_cent_black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/CAT_logo_cent_white.svg": {
+	"\/dist\/images\/CAT_logo_cent_white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/CAT_logo_cent_white.svg",
+		"oAP": "\/dist\/images\/CAT_logo_cent_white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/header-image-02.jpg": {
+	"\/dist\/images\/header-image-02.jpg": {
 		"ft": 16384,
 		"iS": 1902782,
 		"oA": 0,
-		"oAP": "\/images\/header-image-02.jpg",
+		"oAP": "\/dist\/images\/header-image-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/header-image.jpg": {
+	"\/dist\/images\/header-image.jpg": {
 		"ft": 16384,
 		"iS": 1280402,
 		"oA": 0,
-		"oAP": "\/images\/header-image.jpg",
+		"oAP": "\/dist\/images\/header-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/stylesheets\/base\/_fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_fonts.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_grid-css3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_grid-css3.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_grid.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_helpers.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_helpers.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_media-queries.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_media-queries.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_reset.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/base\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/stylesheets\/base\/_typography.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/stylesheets\/catalyst.css": {
+	"\/dist\/stylesheets\/catalyst.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/catalyst-min.css",
+		"oAP": "\/dist\/stylesheets\/catalyst-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/stylesheets\/catalyst.scss": {
+	"\/source\/base\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_fonts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_grid-css3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_grid-css3.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_grid.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_helpers.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_media-queries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_media-queries.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_reset.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/base\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/base\/_typography.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/catalyst.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -230,12 +230,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/stylesheets\/catalyst.css",
-		"oF": 0,
-		"oS": 3,
+		"oAP": "\/dist\/stylesheets\/catalyst.css",
+		"oF": 2,
+		"oS": 0,
 		"uL": 1
 		},
-	"\/stylesheets\/components\/_button.scss": {
+	"\/source\/components\/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -243,12 +243,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/components\/_button.css",
+		"oAP": "\/source\/components\/_button.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/components\/_horizontal-list.scss": {
+	"\/source\/components\/_horizontal-list.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -256,12 +256,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/components\/_horizontal-list.css",
+		"oAP": "\/source\/components\/_horizontal-list.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/components\/_phase-banner.scss": {
+	"\/source\/components\/_phase-banner.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -269,12 +269,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/components\/_phase-banner.css",
+		"oAP": "\/source\/components\/_phase-banner.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/components\/_phase-label.scss": {
+	"\/source\/components\/_phase-label.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -282,12 +282,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/components\/_phase-label.css",
+		"oAP": "\/source\/components\/_phase-label.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/components\/_vertical-list.scss": {
+	"\/source\/components\/_vertical-list.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -295,12 +295,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/components\/_vertical-list.css",
+		"oAP": "\/source\/components\/_vertical-list.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/config\/_colours.scss": {
+	"\/source\/config\/_colours.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -308,12 +308,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/config\/_colours.css",
+		"oAP": "\/source\/config\/_colours.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/config\/_variables.scss": {
+	"\/source\/config\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -321,12 +321,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/config\/_variables.css",
+		"oAP": "\/source\/config\/_variables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_footer.scss": {
+	"\/source\/modules\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -334,12 +334,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_footer.css",
+		"oAP": "\/source\/modules\/_footer.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_header.scss": {
+	"\/source\/modules\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -347,12 +347,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_header.css",
+		"oAP": "\/source\/modules\/_header.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_main.scss": {
+	"\/source\/modules\/_main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -360,12 +360,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_main.css",
+		"oAP": "\/source\/modules\/_main.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_primary-navigation.scss": {
+	"\/source\/modules\/_primary-navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -373,12 +373,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_primary-navigation.css",
+		"oAP": "\/source\/modules\/_primary-navigation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_recipe-navigation.scss": {
+	"\/source\/modules\/_recipe-navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -386,12 +386,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_recipe-navigation.css",
+		"oAP": "\/source\/modules\/_recipe-navigation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/stylesheets\/modules\/_vertical-spacing.scss": {
+	"\/source\/modules\/_vertical-spacing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -399,7 +399,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/stylesheets\/modules\/_vertical-spacing.css",
+		"oAP": "\/source\/modules\/_vertical-spacing.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2314,7 +2314,7 @@
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
