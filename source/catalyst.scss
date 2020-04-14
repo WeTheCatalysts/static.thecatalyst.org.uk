@@ -24,7 +24,6 @@
 @import 'modules/header.scss';
 @import 'modules/main.scss';
 @import 'modules/primary-navigation.scss';
-@import 'modules/recipe-navigation.scss';
 @import 'modules/vertical-spacing.scss';
 
 
@@ -154,41 +153,6 @@ img {
   display: block;
   height: 40px;
 }
-
-
-// service recipes app specific
-// (https://recipes.thecatalyst.org.uk/)
-
-.submit-recipes-cta-panel {
-  background-color: $brand-navy-10;
-  padding: $gutter;
-  @include media(desktop) {
-    padding: $gutter-desktop;
-    border-radius: $gutter-desktop / 4;
-  }
-}
-
-.recipe-navigation-sidebar {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    @include column-one-quarter;
-  }
-}
-
-.recipe-content {
-  @include column-full-width;
-  
-  @include media(desktop) {
-    @include column-three-quarters-offset;
-  }
-}
-
-.anchor-padding-top {
-  padding-top: $gutter-desktop;
-}
-
 
 
 
