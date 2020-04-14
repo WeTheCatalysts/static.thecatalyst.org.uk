@@ -1,0 +1,30 @@
+// Fonts
+$inter-regular: 'Inter-Regular', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$inter-semi-bold: 'Inter-Semi-Bold', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lexenddeca-regular: 'LexendDeca-Regular', -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+// Fonts to use
+$body-font: $inter-regular;
+$body-font-bold: $inter-semi-bold;
+$display-font: $lexenddeca-regular;
+$display-font-bold: $lexenddeca-regular;
+$ui-font: $lexenddeca-regular;
+
+// Breakpoints (minimum widths)
+$mobile:  			0px;
+$tablet:  			600px;
+$desktop: 			960px;
+$desktop-large: 1280px;
+$cinema:  			1800px;
+
+// Gutters & Spacing
+$gutter:                15px;
+$gutter-tablet:         30px;
+$gutter-desktop:        45px;
+$gutter-desktop-large:  $gutter-desktop;
+$gutter-cinema:         60px;
+
+// Layout
+$site-max-width:            100%;
+$grid-max-width:            $desktop_large;

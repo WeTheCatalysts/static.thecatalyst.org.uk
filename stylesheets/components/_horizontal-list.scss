@@ -1,0 +1,12 @@
+ul.horizontal-list {
+  li {
+    float: left;
+    list-style: none;
+    margin-right: $gutter-desktop / 2;
+    margin-top: 16px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

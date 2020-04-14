@@ -1,0 +1,36 @@
+input.button,
+a.button,
+.button {
+  transition: background-color 0.4s ease;
+  @include ui-copy;
+  font-family: $body-font-bold;
+  padding: 14px 17px 12px 17px;
+  font-family: $body-font-bold;
+  background-color: $brand-navy;
+  border:none;
+  border-radius: 25px;
+  color:$white;
+  display: inline-block;
+  width:auto;
+  -webkit-appearance: none;
+  -webkit-border-radius: none;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  @include media(tablet) {
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    width: auto;
+  }
+
+  &:hover {
+    transition: background-color 0.2s ease;
+    background-color: $green;
+    border:none;
+    color:$white;
+    cursor:pointer;
+    text-shadow: none;
+    text-decoration: none;
+	}
+}

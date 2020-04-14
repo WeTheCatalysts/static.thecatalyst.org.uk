@@ -1,0 +1,11 @@
+ul.vertical-list {
+  margin-left: 0;
+  li {
+    list-style: none;
+    padding: 4px 0;
+
+    &:last-child {
+      
+    }
+  }
+}

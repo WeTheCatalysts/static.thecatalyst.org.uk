@@ -1,0 +1,37 @@
+.phase-label {
+  @include phase-label-copy;
+  font-family: $body-font-bold;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+  padding: 0 12px;
+  text-align: center;
+
+  &.is-alpha {
+    color: $white;
+    background-color: $alpha;
+  }
+
+  &.is-beta {
+    color: $white;
+    background-color: $beta;
+  }
+
+  &.is-discovery {
+    color: $white;
+    background-color: $discovery;
+  }
+
+  &.is-idea {
+    background-color: $idea;
+  }
+  
+  &.is-live {
+    color: $white;
+    background-color: $live;
+  }
+
+  &.is-scoping {
+    background-color: $scoping;
+  }
+}

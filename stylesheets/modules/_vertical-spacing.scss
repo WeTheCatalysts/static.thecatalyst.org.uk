@@ -1,0 +1,44 @@
+// vertical spacing - bottom
+
+.vertical-spacing-bottom-0-25 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 0.5, $gutter-count-tablet: 0.5, $gutter-count-desktop: 0.25, $gutter-count-desktop-large: 0.25, $gutter-count-cinema: 0.25);
+}
+
+.vertical-spacing-bottom-0-5 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 1, $gutter-count-tablet: 1, $gutter-count-desktop: 0.5, $gutter-count-desktop-large: 0.5, $gutter-count-cinema: 0.5);
+}
+
+.vertical-spacing-bottom {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 2, $gutter-count-tablet: 2, $gutter-count-desktop: 1, $gutter-count-desktop-large: 1, $gutter-count-cinema: 1);
+}
+
+.vertical-spacing-bottom-2 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 4, $gutter-count-tablet: 4, $gutter-count-desktop: 2, $gutter-count-desktop-large: 2, $gutter-count-cinema: 2);
+}
+
+.vertical-spacing-bottom-3 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 6, $gutter-count-tablet: 6, $gutter-count-desktop: 3, $gutter-count-desktop-large: 3, $gutter-count-cinema: 3);
+}
+
+.vertical-spacing-bottom-4 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 8, $gutter-count-tablet: 8, $gutter-count-desktop: 4, $gutter-count-desktop-large: 4, $gutter-count-cinema: 4);
+}
+
+
+// vertical spacing - top
+
+.vertical-spacing-top-0-25 {
+  @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 0.5, $gutter-count-tablet: 0.5, $gutter-count-desktop: 0.25, $gutter-count-desktop-large: 0.25, $gutter-count-cinema: 0.25);
+}
+
+.vertical-spacing-top-0-5 {
+  @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 1, $gutter-count-tablet: 1, $gutter-count-desktop: 0.5, $gutter-count-desktop-large: 0.5, $gutter-count-cinema: 0.5);
+}
+
+.vertical-spacing-top {
+  @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 2, $gutter-count-tablet: 2, $gutter-count-desktop: 1, $gutter-count-desktop-large: 1, $gutter-count-cinema: 1);
+}
+
+.vertical-spacing-top-2 {
+  @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 4, $gutter-count-tablet: 4, $gutter-count-desktop: 2, $gutter-count-desktop-large: 2, $gutter-count-cinema: 2);
+}

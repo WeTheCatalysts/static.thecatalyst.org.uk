@@ -1,0 +1,106 @@
+
+// Type Scale (nabbed from GDS)
+$type-size-14:    14px;
+$line-height-14:  24px;
+$type-size-16:    16px;
+$line-height-16:  22px;
+$type-size-18:    18px;
+$line-height-18:  27px;
+$type-size-24:    24px;
+$line-height-24:  34px;
+$type-size-27:    27px;
+$line-height-27:  30px;
+$type-size-36:    36px;
+$line-height-36:  40px;
+$type-size-48:    48px;
+$line-height-48:  50px;
+$type-size-72:    72px;
+$line-height-72:  82px;
+
+
+@mixin body-copy-small {
+  font-size: $type-size-14;
+  line-height: $line-height-14;
+  @include media(tablet) {
+    font-size: $type-size-16;
+    line-height: $line-height-16;
+  }
+}
+
+@mixin body-copy-medium {
+  font-size: $type-size-16;
+  line-height: $line-height-16;
+  @include media(tablet) {
+    font-size: $type-size-18;
+    line-height: $line-height-18;
+  }
+}
+
+@mixin body-copy-large {
+  font-size: $type-size-18;
+  line-height: $line-height-18;
+  @include media(tablet) {
+    font-size: $type-size-24;
+    line-height: $line-height-24;
+  }
+}
+
+@mixin heading-small {
+  font-feature-settings: "salt" on;
+  font-size: $type-size-24;
+  line-height: $line-height-24;
+  @include media(tablet) {
+    font-size: $type-size-27;
+    line-height: $line-height-27;
+  }
+}
+
+@mixin heading-medium {
+  font-feature-settings: "salt" on;
+  font-size: $type-size-27;
+  line-height: $line-height-27;
+  @include media(tablet) {
+    font-size: $type-size-36;
+    line-height: $line-height-36;
+    letter-spacing: -0.006125em;
+  }
+}
+
+@mixin heading-large {
+  font-feature-settings: "salt" on;
+  font-size: $type-size-36;
+  line-height: $line-height-36;
+  letter-spacing: -0.0125em;
+
+  @include media(desktop) {
+    font-size: $type-size-48;
+    line-height: $line-height-48;
+  }
+}
+
+@mixin heading-extra-large {
+  font-feature-settings: "salt" on;
+  font-size: $type-size-36;
+  line-height: $line-height-36;
+  letter-spacing: -0.025em;
+
+  @include media(tablet) {
+    font-size: $type-size-48;
+    line-height: $line-height-48;
+  }
+
+  @include media(desktop) {
+    font-size: $type-size-72;
+    line-height: $line-height-72;
+  }
+}
+
+@mixin ui-copy {
+  @include body-copy-medium;
+}
+
+@mixin phase-label-copy {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}

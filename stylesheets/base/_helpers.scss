@@ -1,0 +1,55 @@
+@mixin vertical-gutter-behaviour(
+  $direction: 'bottom', 
+  $gutter-count-mobile: false, 
+  $gutter-count-tablet: false, 
+  $gutter-count-desktop: false, 
+  $gutter-count-desktop-large: false, 
+  $gutter-count-cinema: false
+  ) {
+
+  @if $gutter-count-mobile != false {
+    margin-#{$direction}: $gutter * $gutter-count-mobile;
+  }@else{
+    margin-#{$direction}: 0;
+  }
+
+  @if $gutter-count-tablet != false {
+    @include media(tablet) {
+      margin-#{$direction}: $gutter-tablet * $gutter-count-tablet;
+    }
+  }@else{
+    @include media(tablet) {
+      margin-#{$direction}: 0;
+    }
+  }
+
+  @if $gutter-count-desktop != false {
+    @include media(desktop) {
+      margin-#{$direction}: $gutter-desktop * $gutter-count-desktop;
+    }
+  }@else{
+    @include media(desktop) {
+      margin-#{$direction}: 0;
+    }
+  }
+
+  @if $gutter-count-desktop-large != false {
+    @include media(desktop_large) {
+      margin-#{$direction}: $gutter-desktop-large * $gutter-count-desktop-large;
+    }
+  }@else{
+    @include media(desktop_large) {
+      margin-#{$direction}: 0;
+    }
+  }
+
+  @if $gutter-count-cinema != false {
+    @include media(cinema) {
+      margin-#{$direction}: $gutter-cinema * $gutter-count-cinema;
+    }
+  }@else{
+    @include media(cinema) {
+      margin-#{$direction}: 0;
+    }
+  }
+}

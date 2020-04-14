@@ -1,0 +1,21 @@
+.primary-navigation {
+  display: none;
+  
+
+  @include media(desktop) {
+    display: block;
+    float: right;
+  }
+
+  a {
+    @include body-copy-small;
+    font-family: $body-font-bold;
+    color: $white;
+    text-decoration: none;
+
+    &.is-active,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

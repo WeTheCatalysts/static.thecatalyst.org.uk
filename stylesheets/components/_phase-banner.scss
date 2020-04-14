@@ -1,0 +1,11 @@
+.phase-banner {
+  @include body-copy-small;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  .phase-notice {
+    position: relative;
+    top: 1px;
+    left: 6px;
+  }
+}

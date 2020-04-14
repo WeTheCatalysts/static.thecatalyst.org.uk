@@ -1,0 +1,8 @@
+.main {
+  min-height: 700px;
+  padding-top: $gutter;
+
+  @include media(desktop) {
+    padding-top: $gutter-desktop / 2;
+  }
+}

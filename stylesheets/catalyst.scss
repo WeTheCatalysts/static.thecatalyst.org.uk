@@ -1,0 +1,348 @@
+
+// config
+@import 'config/colours.scss';
+@import 'config/variables.scss';
+
+// base
+@import 'base/reset.scss';
+@import 'base/media-queries';
+@import 'base/grid.scss';
+@import 'base/helpers.scss';
+@import 'base/fonts.scss';
+@import 'base/typography.scss';
+
+
+// components
+@import 'components/button.scss';
+@import 'components/horizontal-list.scss';
+@import 'components/phase-banner.scss';
+@import 'components/phase-label.scss';
+@import 'components/vertical-list.scss';
+
+// modules
+@import 'modules/footer.scss';
+@import 'modules/header.scss';
+@import 'modules/main.scss';
+@import 'modules/primary-navigation.scss';
+@import 'modules/recipe-navigation.scss';
+@import 'modules/vertical-spacing.scss';
+
+
+body {
+  @include body-copy-medium;
+  color: $brand-navy;
+  font-family: $body-font;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+h1 {
+  @include heading-large;
+  font-family: $display-font;
+  margin-bottom: 0.5em;
+
+  &.extra-large {
+    @include heading-extra-large;
+  }
+}
+
+h2 {
+  @include heading-medium;
+  font-family: $display-font;
+  margin-bottom: 1em;
+}
+
+h3 {
+  @include heading-small;
+  font-family: $display-font;
+  margin-bottom: 0.5em;
+} 
+
+p {
+  @include body-copy-medium;
+  margin-bottom: 1em;
+  max-width: 740px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 1em;
+}
+
+a {
+  color: $brand-navy;
+  text-decoration: underline;
+
+  &.no-underline {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.body-copy-small {
+  @include body-copy-small;
+}
+
+.body-copy-medium {
+  @include body-copy-medium;
+}
+
+.body-copy-large {
+  @include body-copy-large;
+}
+
+.heading-small {
+  @include heading-small;
+  font-family: $display-font;
+}
+
+.heading-medium {
+  @include heading-medium;
+  font-family: $display-font;
+  margin-left: -1px;
+}
+
+.heading-large {
+  @include heading-large;
+  font-family: $display-font;
+  margin-left: -2px;
+}
+
+.heading-extra-large {
+  @include heading-extra-large;
+  font-family: $display-font;
+  margin-left: -4px;
+  max-width: 800px;
+}
+
+.ui-copy {
+  @include ui-copy;
+  font-family: $display-font-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tabular-numbers {
+  font-variant-numeric: tabular-nums;
+}
+
+.small {
+  @include body-copy-small;
+}
+
+.bottom-border {
+  border-bottom: 1px solid $brand-navy-10;
+}
+
+.top-border {
+  border-top: 1px solid $brand-navy-10;
+}
+
+.bottom-border-2 {
+  border-bottom: 2px solid $brand-navy-10;
+}
+
+
+.logo {
+  display: block;
+  height: 40px;
+}
+
+
+// service recipes app specific
+// (https://recipes.thecatalyst.org.uk/)
+
+.submit-recipes-cta-panel {
+  background-color: $brand-navy-10;
+  padding: $gutter;
+  @include media(desktop) {
+    padding: $gutter-desktop;
+    border-radius: $gutter-desktop / 4;
+  }
+}
+
+.recipe-navigation-sidebar {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    @include column-one-quarter;
+  }
+}
+
+.recipe-content {
+  @include column-full-width;
+  
+  @include media(desktop) {
+    @include column-three-quarters-offset;
+  }
+}
+
+.anchor-padding-top {
+  padding-top: $gutter-desktop;
+}
+
+
+
+
+// styles app (heroku) specific
+// (https://catalyst-styles.herokuapp.com/)
+
+.proto-type,
+.proto-colors{
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.proto-type p {
+  margin-bottom: $gutter;
+}
+
+.proto-color-swatch {
+  border-radius: 50%;
+  display: block;
+  float: left;
+
+  width: 44px;
+  height: 44px;
+  margin-right: 11px;
+
+  @include media(desktop) {
+    height: 88px;
+    width: 88px;
+    margin-right: 22px;
+  }
+}
+
+.proto-style-block {
+  display: block;
+  margin-bottom: $gutter * 8;
+}
+
+.proto-background {
+  min-height: 140px;
+  background-color: #f5f5f5;
+
+  &.tall {
+    min-height: 500px;
+  }
+}
+
+
+
+
+
+// pipeline app specific
+// (https://pipeline-frontend-272617.appspot.com/)
+
+.pipeline-item {
+  position: relative;
+
+  .phase-label {
+    position: absolute;
+    right: 0;
+    top: 4px;
+
+    @include media(desktop) {
+      top: 8px;
+    }
+  }
+}
+
+.proto-pipeline-phase {
+
+  @include column-half;
+  margin-bottom: $gutter;
+  
+  @include media(tablet) {
+    @include column-one-third;
+    margin-bottom: $gutter-tablet;
+  }
+
+  @include media(desktop) {
+    @include column-one-sixth;
+    margin-bottom: $gutter-desktop;
+  }
+}
+
+.phase-title {
+  @include body-copy-medium;
+  display: inline-block;
+  width: 100%;
+  border-top: 10px solid $alpha;
+  padding-top: 5px;
+
+  &.is-alpha {
+    border-color: $alpha;
+  }
+
+  &.is-beta {
+    border-color: $beta;
+  }
+
+  &.is-discovery {
+    border-color: $discovery;
+  }
+
+  &.is-idea {
+    border-color: $idea;
+  }
+  
+  &.is-live {
+    border-color: $live;
+  }
+
+  &.is-scoping {
+    border-color: $scoping;
+  }
+}
+
+.phase-count {
+  display: inline-block;
+  margin-left: 1px;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.state-label {
+  @include body-copy-small;
+  display: block;
+  margin-left: 16px;
+
+  &:before {
+    content:'';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+    top: 16px;
+    left: -16px;
+  }
+
+  &.active {
+    &:before {
+      background-color: $active-state;
+    }
+  }
+
+  &.inactive {
+    &:before {
+      background-color: white;
+      border: 1px solid $inactive-state;
+      width: 8px;
+      height: 8px;
+    }
+  }
+}

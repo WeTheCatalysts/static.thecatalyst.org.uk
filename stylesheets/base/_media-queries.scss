@@ -1,0 +1,33 @@
+@mixin media($size: false) {
+	// $size can be: cinema, desktop_large, desktop, tablet, mobile
+
+	@if $size == cinema {
+  	@media screen and (min-width: $cinema) {
+    	@content;
+    }
+  }
+
+	@if $size == desktop-large {
+  	@media screen and (min-width: $desktop-large) {
+    	@content;
+    }
+  }
+
+	@if $size == desktop {
+  	@media screen and (min-width: $desktop) {
+    	@content;
+    }
+  }
+
+  @else if $size == tablet {
+    @media screen and (min-width: $tablet) {
+    	@content;
+    }
+  }
+
+  @else if $size == mobile {
+    @media screen and (min-width: $mobile) {
+    	@content;
+    }
+  }
+}

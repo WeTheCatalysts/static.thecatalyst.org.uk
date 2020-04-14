@@ -1,0 +1,130 @@
+
+// Extremely lightweight grid by Guy Moorhouse
+// Without all the usual cruft and bloat.
+// Adapted from this by Chris Coyier — https://css-tricks.com/dont-overthink-it-grids/
+
+
+@mixin grid($gutterless: false) {
+  margin: 0 auto;
+  max-width: $grid-max-width;
+
+  @if($gutterless == false) {
+    padding: 0 $gutter/2;
+
+    @include media(tablet) {
+      padding: 0 $gutter-tablet/2;
+    }
+
+    @include media(desktop) {
+      padding: 0 $gutter-desktop/2;
+    }
+
+    @include media(desktop-large) {
+      padding: 0 $gutter-desktop-large/2;
+    }
+
+  }@else{
+    padding: 0;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  [class*='column-'],
+  .grid-column {
+  	float: left;
+
+    @if($gutterless == false) {
+      padding: 0 $gutter/2;
+
+      @include media(tablet) {
+        padding: 0 $gutter-tablet/2;
+      }
+
+      @include media(desktop) {
+        padding: 0 $gutter-desktop/2;
+      }
+
+      @include media(desktop-large) {
+        padding: 0 $gutter-desktop-large/2;
+      }
+
+    }@else{
+      padding: 0;
+    }
+  }
+}
+
+.grid-container {
+  @include grid();
+}
+
+@mixin column-full-width {
+  width: 100%;
+}
+@mixin column-half {
+  width: 50%;
+}
+@mixin column-one-third {
+  width: 33.33%;
+}
+@mixin column-one-quarter {
+  width: 25%;
+}
+@mixin column-one-fifth {
+  width: 20%;
+}
+@mixin column-one-sixth {
+  width: 16.666667%;
+}
+@mixin column-two-thirds {
+  width: 66.66%;
+}
+@mixin column-three-quarters {
+  width: 75%;
+}
+@mixin column-three-quarters-offset {
+  width: 75%;
+  margin-left: 25%;
+}
+@mixin column-two-fifths {
+  width: 40%;
+}
+@mixin column-three-fifths {
+  width: 60%;
+}
+@mixin column-four-fifths {
+  width: 80%;
+}
+
+
+.column-full-width {
+  @include column-full-width;
+}
+
+.column-one-half {
+  @include column-half;
+}
+
+.column-one-third {
+  @include column-one-third;
+}
+
+.column-two-thirds {
+  @include column-two-thirds;
+}
+
+.column-one-quarter {
+  @include column-one-quarter;
+}
+
+.column-three-quarters {
+  @include column-three-quarters;
+}
+
+.column-one-sixth {
+  @include column-one-sixth;
+}
