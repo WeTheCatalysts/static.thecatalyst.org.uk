@@ -9,6 +9,11 @@
   .header-logo {
     position: absolute;
     top: 20px;
+
+    h1 {
+      display: none;
+    }
+
     .logo {
       height: 24px;
     }
