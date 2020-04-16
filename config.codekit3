@@ -21,64 +21,58 @@
 		"oAP": "\/dist\/favicon.ico",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-Black-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Black-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Regular.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-Bold-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Regular.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Bold-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Regular.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-ExtraBold-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Regular.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-ExtraBold-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Regular.woff2",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-ExtraLight-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Semi-Bold.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-ExtraLight-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Semi-Bold.ttf",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-Light-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Semi-Bold.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Light-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Semi-Bold.woff",
 		"oF": 0
 		},
-	"\/dist\/fonts\/Inter-Medium-slnt=0.ttf": {
+	"\/dist\/fonts\/Inter-Semi-Bold.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Medium-slnt=0.ttf",
-		"oF": 0
-		},
-	"\/dist\/fonts\/Inter-Regular-slnt=0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Regular-slnt=0.ttf",
-		"oF": 0
-		},
-	"\/dist\/fonts\/Inter-SemiBold-slnt=0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-SemiBold-slnt=0.ttf",
-		"oF": 0
-		},
-	"\/dist\/fonts\/Inter-Thin-slnt=0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/dist\/fonts\/Inter-Thin-slnt=0.ttf",
+		"oAP": "\/dist\/fonts\/Inter-Semi-Bold.woff2",
 		"oF": 0
 		},
 	"\/dist\/fonts\/LexendDeca-Regular.ttf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/dist\/fonts\/LexendDeca-Regular.ttf",
+		"oF": 0
+		},
+	"\/dist\/fonts\/LexendDeca-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/fonts\/LexendDeca-Regular.woff",
+		"oF": 0
+		},
+	"\/dist\/fonts\/LexendDeca-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/fonts\/LexendDeca-Regular.woff2",
 		"oF": 0
 		},
 	"\/dist\/images\/CAT_logo_cent_black.svg": {
