@@ -63,7 +63,11 @@ p {
   max-width: 740px;
 }
 
-ul {
+strong {
+  font-family: $body-font-bold;
+}
+
+ul, ol {
   margin-left: 20px;
   margin-bottom: 1em;
 }
@@ -87,6 +91,12 @@ a {
 
 img {
   width: 100%;
+}
+
+.contains-markdown {
+  ul, ol {
+    @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 2, $gutter-count-tablet: 2, $gutter-count-desktop: 1, $gutter-count-desktop-large: 1, $gutter-count-cinema: 1);
+  }
 }
 
 .body-copy-small {
