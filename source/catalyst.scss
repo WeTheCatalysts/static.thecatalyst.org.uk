@@ -108,7 +108,8 @@ img {
     @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 2, $gutter-count-tablet: 2, $gutter-count-desktop: 1, $gutter-count-desktop-large: 1, $gutter-count-cinema: 1);
   }
 
-  p + h2 {
+  p + h2,
+  ul + h2 {
     @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 4, $gutter-count-tablet: 4, $gutter-count-desktop: 2, $gutter-count-desktop-large: 2, $gutter-count-cinema: 2);
   }
 
