@@ -133,6 +133,7 @@ img {
 .heading-small {
   @include heading-small;
   font-family: $display-font;
+  max-width: 740px;
 }
 
 .heading-medium {
