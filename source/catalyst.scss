@@ -134,21 +134,21 @@ img {
 .heading-small {
   @include heading-small;
   font-family: $display-font;
-  max-width: 740px;
+  max-width: 760px;
 }
 
 .heading-medium {
   @include heading-medium;
   font-family: $display-font;
   margin-left: -1px;
-  max-width: 740px;
+  max-width: 760px;
 }
 
 .heading-large {
   @include heading-large;
   font-family: $display-font;
   margin-left: -2px;
-  max-width: 740px;
+  max-width: 760px;
 }
 
 .heading-extra-large {
