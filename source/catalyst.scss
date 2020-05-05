@@ -110,7 +110,8 @@ img {
   }
 
   p + h2,
-  ul + h2 {
+  ul + h2,
+  ol + h2 {
     @include vertical-gutter-behaviour($direction: 'top', $gutter-count-mobile: 4, $gutter-count-tablet: 4, $gutter-count-desktop: 2, $gutter-count-desktop-large: 2, $gutter-count-cinema: 2);
   }
 
