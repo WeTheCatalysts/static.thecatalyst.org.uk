@@ -18,6 +18,11 @@ $type-size-72:    72px;
 $line-height-72:  82px;
 
 
+@mixin body-copy-smallest {
+  font-size: $type-size-14;
+  line-height: $line-height-14;
+}
+
 @mixin body-copy-small {
   font-size: $type-size-14;
   line-height: $line-height-14;

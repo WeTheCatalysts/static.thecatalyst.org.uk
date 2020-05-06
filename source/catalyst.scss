@@ -120,6 +120,10 @@ img {
   }
 }
 
+.body-copy-smallest {
+  @include body-copy-smallest;
+}
+
 .body-copy-small {
   @include body-copy-small;
 }
@@ -186,6 +190,19 @@ img {
   border-bottom: 2px solid $brand-navy-10;
 }
 
+.top-border-2 {
+  border-top: 2px solid $brand-navy-10;
+  &.heavy-border {
+    border-top-color: $brand-navy;
+  }
+}
+
+.desktop-only {
+  display: none;
+  @include media(desktop) {
+    display: inline;
+  }
+}
 
 .logo {
   display: block;
