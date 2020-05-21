@@ -24,6 +24,16 @@ a.button,
     width: auto;
   }
 
+  &.secondary {
+    background-color: $off-white;
+    color:  $brand-navy;
+    border: 1px solid #cecece;
+
+    &:hover {
+      border: 1px solid $brand-navy;
+    }
+  }
+
   &:hover {
     transition: background-color 0.2s ease;
     background-color: rgba($brand-navy, 0.75);
