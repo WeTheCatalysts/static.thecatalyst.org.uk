@@ -26,12 +26,15 @@ a.button,
   }
 
   &.secondary {
-    background-color: $brand-navy-10;
-    color:  $brand-navy;
+    background-color: $brand-navy-5;
+    box-shadow:rgba(0, 0, 0, 0.025) 0px 5px 15px 0px;
+    color: $brand-navy-75;
     border: 1px solid $brand-navy-10;
 
     &:hover {
-      border: 1px solid $brand-navy;
+      border: 1px solid $brand-navy-10;
+      background-color: $brand-navy-10;
+      color:  $brand-navy;
     }
   }
 
