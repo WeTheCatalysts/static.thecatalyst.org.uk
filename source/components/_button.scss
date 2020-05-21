@@ -2,13 +2,13 @@ input.button,
 a.button,
 .button {
   @include ui-copy;
-  box-shadow:rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
   font-family: $body-font-bold;
   padding: 12px 17px 10px 17px;
   font-family: $body-font-bold;
   background-color: $brand-navy;
   border:none;
-  border-radius: 5px;//25px;
+  border-radius: 5px;
   color:$white;
   display: inline-block;
   width:auto;
