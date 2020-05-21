@@ -101,7 +101,7 @@ $line-height-72:  82px;
 }
 
 @mixin ui-copy {
-  @include body-copy-medium;
+  @include body-copy-small;
 }
 
 @mixin phase-label-copy {

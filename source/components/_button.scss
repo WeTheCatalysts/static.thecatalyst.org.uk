@@ -1,8 +1,8 @@
 input.button,
 a.button,
 .button {
-  transition: background-color 0.4s ease;
   @include ui-copy;
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.025);
   font-family: $body-font-bold;
   padding: 14px 17px 12px 17px;
   font-family: $body-font-bold;
@@ -16,6 +16,7 @@ a.button,
   -webkit-border-radius: none;
   text-align: center;
   text-decoration: none;
+  transition: background-color 0.4s ease;
   width: 100%;
 
   @include media(tablet) {
@@ -36,7 +37,7 @@ a.button,
 
   &:hover {
     transition: background-color 0.2s ease;
-    background-color: rgba($brand-navy, 0.75);
+    background-color: rgba($brand-navy, 0.85);
     border:none;
     color:$white;
     cursor:pointer;
