@@ -2,13 +2,13 @@ input.button,
 a.button,
 .button {
   @include ui-copy;
-  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.025);
+  box-shadow:rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   font-family: $body-font-bold;
-  padding: 14px 17px 12px 17px;
+  padding: 12px 17px 10px 17px;
   font-family: $body-font-bold;
   background-color: $brand-navy;
   border:none;
-  border-radius: 25px;
+  border-radius: 5px;//25px;
   color:$white;
   display: inline-block;
   width:auto;
@@ -16,19 +16,19 @@ a.button,
   -webkit-border-radius: none;
   text-align: center;
   text-decoration: none;
-  transition: background-color 0.4s ease;
+  transition: background-color 0.2s ease;
   width: 100%;
 
   @include media(tablet) {
-    border-radius: 25px;
-    padding: 10px 40px 10px 40px;
+    border-radius: 5px;//25px;
+    padding: 12px 60px 12px 60px;
     width: auto;
   }
 
   &.secondary {
-    background-color: $off-white;
+    background-color: $brand-navy-10;
     color:  $brand-navy;
-    border: 1px solid #cecece;
+    border: 1px solid $brand-navy-10;
 
     &:hover {
       border: 1px solid $brand-navy;
