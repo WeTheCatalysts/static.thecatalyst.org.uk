@@ -1,5 +1,9 @@
 // vertical spacing - bottom
 
+.vertical-spacing-bottom-0 {
+  @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 0, $gutter-count-tablet: 0, $gutter-count-desktop: 0, $gutter-count-desktop-large: 0, $gutter-count-cinema: 0);
+}
+
 .vertical-spacing-bottom-0-25 {
   @include vertical-gutter-behaviour($direction: 'bottom', $gutter-count-mobile: 0.5, $gutter-count-tablet: 0.5, $gutter-count-desktop: 0.25, $gutter-count-desktop-large: 0.25, $gutter-count-cinema: 0.25);
 }
