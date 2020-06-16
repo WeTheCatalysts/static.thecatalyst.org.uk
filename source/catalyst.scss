@@ -179,6 +179,11 @@ img {
   @include body-copy-small;
 }
 
+.force-wrap {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 .bottom-border {
   border-bottom: 1px solid $brand-navy-10;
 }
