@@ -23,7 +23,7 @@ $gutter:                15px;
 $gutter-tablet:         30px;
 $gutter-desktop:        45px;
 $gutter-desktop-large:  $gutter-desktop;
-$gutter-cinema:         60px;
+$gutter-cinema:         $gutter-desktop;
 
 // Layout
 $site-max-width:            100%;
