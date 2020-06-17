@@ -3,35 +3,38 @@
   font-family: $body-font-bold;
   line-height: 24px;
   height: 24px;
+  border-radius: 12px;
   display: inline-block;
-  padding: 0 12px;
+  padding: 0 16px;
   text-align: center;
 
   &.is-alpha {
-    color: $white;
-    background-color: $alpha;
+    color: $alpha-label-text;
+    background-color: $alpha-label-bg;
   }
 
   &.is-beta {
-    color: $white;
-    background-color: $beta;
+    color: $beta-label-text;
+    background-color: $beta-label-bg;
   }
 
   &.is-discovery {
-    color: $white;
-    background-color: $discovery;
+    color: $discovery-label-text;
+    background-color: $discovery-label-bg;
   }
 
   &.is-idea {
-    background-color: $idea;
+    background-color: $idea-label-bg;
+    border: 1px solid $discovery-label-bg;
   }
   
   &.is-live {
-    color: $white;
-    background-color: $live;
+    color: $live-label-text;
+    background-color: $live-label-bg;
   }
 
   &.is-scoping {
-    background-color: $scoping;
+    background-color: $scoping-label-bg;
+    border: 1px solid $discovery-label-bg;
   }
 }

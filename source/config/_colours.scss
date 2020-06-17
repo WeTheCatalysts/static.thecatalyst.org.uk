@@ -24,9 +24,26 @@ $active-state: $green;
 $inactive-state: $mid-grey;
 
 // phase banners
-$alpha: #D7288E;
-$beta: #C25400;
-$discovery: #0C9DEF;
-$idea: rgba($discovery, 0.25);
-$live: $green;
-$scoping: rgba($discovery, 0.5);
+$alpha: #FF64BE;
+$alpha-label-bg: #FBD0E9;
+$alpha-label-text: #990059;
+
+$beta: #FF8000;
+$beta-label-bg: #FFD9B3;
+$beta-label-text: #663300;
+
+$discovery: #0CA6F3;
+$discovery-label-bg: #CEECFD;
+$discovery-label-text: #043049;
+
+$idea: #C2E9FC;
+$idea-label-bg: #F0FAFE;
+$idea-label-text: #043049;
+
+$live: #00B200;
+$live-label-bg: #ABEDAB;
+$live-label-text: #003906;
+
+$scoping: #86D2F9;
+$scoping-label-bg: #E7F6FE;
+$scoping-label-text: #043049;
