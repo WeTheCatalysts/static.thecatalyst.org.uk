@@ -60,6 +60,10 @@
 
 .grid-container {
   @include grid();
+
+  &.is-gutterless {
+    @include grid($gutterless: true);
+  }
 }
 
 @mixin column-full-width {
