@@ -281,7 +281,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/components\/_vertical-list.scss": {
+	"\/source\/components\/_vertical-list-navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -289,7 +289,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/components\/_vertical-list.css",
+		"oAP": "\/source\/css\/_vertical-list-navigation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

@@ -1,0 +1,24 @@
+ul.vertical-list-navigation {
+  margin-left: 0;
+  li {
+    list-style: none;
+
+    a {
+      @include body-copy-small;
+      border-bottom: 1px solid $brand-navy-5;
+      display: block;
+      padding: 6px 0 6px 12px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $brand-navy-5;
+      }
+    }
+
+    &.is-active {
+      a {
+        background-color: $brand-navy-5;
+      }
+    }
+  }
+}
