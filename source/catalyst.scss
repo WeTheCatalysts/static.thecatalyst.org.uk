@@ -77,6 +77,11 @@ em {
 ul, ol {
   margin-left: 20px;
   margin-bottom: 1em;
+
+  &.no-bullets {
+    margin-left: 0;
+    list-style: none;
+  }
 }
 
 li {
