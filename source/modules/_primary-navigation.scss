@@ -9,13 +9,13 @@
 
   a {
     @include body-copy-small;
-    font-family: $body-font-bold;
-    color: $white;
+    font-family: $body-font;
+    color: $brand-navy;
     text-decoration: none;
 
     &.is-active,
     &:hover {
-      text-decoration: underline;
+      border-bottom: 1px solid $brand-navy;
     }
   }
 }
